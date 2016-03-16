@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url("../images/background.jpg") left bottom fixed #a4f6f6;
+    font-family: 'Roboto', 'Noto', sans-serif;
+}
+
+@media screen and (min-height: 1080px) {
+  body {
+    background-size: auto 100%;
+  }
+}
+
+
+#search {
+    text-align: left;
+    margin: 0 100px;
+}
+
+.title {
+    color: white;
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.searchButton {
+    background-color: #134b56;
+    color: #ffffff;
+    font-size: 25px;
+}
+.searchButton:hover {
+    background: #38DEFF;
+}
+
+.infoButton {
+    background-color: #196878;
+    color: #ffffff;
+}
+.infoButton:hover {
+    background: #33c3df;
+}
+
+#content {
+    background: #ffffff;
+    padding: 20px;
+    margin: 20px 50px 0 50px;
+}
+
+.searchTitle {
+    font-size: 50px;
+    font-weight: 100;
+}
+
+.perfil {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    text-decoration: none;
+    color: #134b56;
+}
